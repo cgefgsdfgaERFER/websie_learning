@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Your Cart</h1>
+  <div id="cart-items"></div>
+  <h2>Checkout</h2>
+  <form id="checkout-form">
+    <input type="text" placeholder="Card Number (fake)" required><br>
+    <input type="text" placeholder="Expiry MM/YY" required><br>
+    <input type="text" placeholder="CVC" required><br>
+    <button type="submit">Submit Payment</button>
+  </form>
+  <div id="confirmation" style="display:none;"><h2>✅ Payment Successful!</h2></div>
+  <script src="js/cart.js"></script>
+</body>
+</html>
